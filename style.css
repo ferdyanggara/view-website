@@ -1,0 +1,69 @@
+html{
+	position: relative;
+}
+
+body{
+	margin-bottom: 100px;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.bg-success{
+	background-color: transparent !important;
+}
+.fontjudul{
+	font-family: 'Bilbo Swash Caps', cursive;
+}
+
+.textnavbar{
+	 font-size: 30px ;
+	 font-family: 'Allura';
+}
+
+.kanan{
+	float:right;
+}
+
+.jumbotron {
+	height:300px;
+	background-image: url('img/Pool-Video.jpg');
+	background-attachment: fixed;
+	background-color: rgba(r,g,b,alpha);
+	background-size: cover;
+	background-position: 0 -100px;
+	color: #eaeaea;
+	overflow: hidden;
+} 
+
+.jumbotron p {
+	text-shadow: 1px 1px 10px rgba(10,10,10,1);
+}
+.jumbotron h1 {
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	font-family: 'Allura', cursive;
+}
+.container{
+	background-image: cover;
+}
+.tulisan{
+	position: relative;
+	top: 10px;
+}
+
+#carouselExampleCaptions{
+	position: relative;
+	bottom: 50px
+}
+/*#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }*/
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+}
